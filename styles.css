@@ -1,0 +1,81 @@
+body {
+  background-color: #ffff00;
+}
+
+#main {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transform: rotate(-5deg);
+}
+
+p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.input {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.input-text {
+  background-color: #ffffff;
+  border-width: 0;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 100px;
+  margin-left: 1em;
+}
+
+select {
+  background-color: #ffffff;
+  border-width: 0;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 100px;
+}
+
+textarea {
+  background-color: #ffffff;
+  border-width: 0;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 100px;
+  resize: none;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em;
+  border-width: 0;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 0.5em;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 0.5em;
+  cursor: pointer;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+button:hover {
+  transform: rotate(-5deg);
+}
