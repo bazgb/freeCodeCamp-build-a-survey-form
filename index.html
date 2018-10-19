@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">Title</h1>
+  <p id="description">Description</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">
+      Name<input id="name" type="text" placeholder="enter name" required />
+    </label>
+    <label for="email" id="email-label">
+      Email <input id="email" type="email" placeholder="enter email" required />
+    </label>
+    <label for="number" id="number-label">
+      Number <input id="number" type="number" placeholder="enter number" min="1" max="9" />
+    </label>
+    
+    <select id="dropdown">
+      <option value="vone">one</option>
+      <option value="two">two</option>
+      <option value="three">three</option>
+      <option value="four">four</option>
+    </select>
+    
+    <input type="radio" id="a" name="group1" value="a" />
+    <label for="a">A</label>
+    <input type="radio" id="b" name="group1" value="b" />
+    <label for="b">B</label>
+    <input type="radio" id="c" name="group1" value="c" />
+    <label for="c">C</label>
+    
+    <input id="x" type="checkbox" name="group2" value="x">
+    <label for="x">X</label>
+    <input id="y" type="checkbox" name="group2" value="y">
+    <label for="y">Y</label>
+    <input id="z" type="checkbox" name="group2" value="z">
+    <label for="z">Z</label>
+
+    <textarea rows="4" cols="10" placeholder="write"></textarea>
+
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
